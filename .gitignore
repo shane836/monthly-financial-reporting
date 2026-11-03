@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+private/
+runs/
+*.xlsx
+*.xlsm
+*.pdf
+*.eml
+*.log

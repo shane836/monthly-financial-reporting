@@ -1,0 +1,12 @@
+{
+  "entity": "Example Company",
+  "required_roles": ["financial_statement", "report_template"],
+  "inputs": [
+    {"metric": "revenue", "sheet": "Summary", "cell": "B1"},
+    {"metric": "expenses", "sheet": "Summary", "cell": "B2"}
+  ],
+  "equations": [
+    {"name": "Net income", "terms": {"revenue": 1, "expenses": -1}, "expected": "net_income", "tolerance": "0.00"}
+  ],
+  "monitor": {"baseline": "2030-01", "timezone": "UTC", "due_day": 20, "due_hour": 9, "grace_hours": 3}
+}

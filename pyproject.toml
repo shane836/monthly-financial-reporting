@@ -1,0 +1,13 @@
+[project]
+name = "monthly-financial-reporting"
+version = "0.1.0"
+description = "Generalized financial-reporting skill with workbook, Mail, delivery, and monitoring helpers"
+requires-python = ">=3.12"
+dependencies = ["openpyxl>=3.1.5,<4"]
+
+[dependency-groups]
+dev = ["pytest>=8,<9", "pyyaml>=6,<7"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

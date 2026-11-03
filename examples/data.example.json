@@ -1,0 +1,9 @@
+{
+  "entity": "Example Company",
+  "period": "2030-01",
+  "metrics": {
+    "revenue": {"value": "1250.00", "source": "Fictional ledger, revenue subtotal"},
+    "expenses": {"value": "850.00", "source": "Fictional ledger, expense subtotal"},
+    "net_income": {"value": "400.00", "source": "Fictional ledger, net income subtotal"}
+  }
+}
