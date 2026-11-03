@@ -1,15 +1,8 @@
 ---
-type: reference
-title: Monthly Financial Reporting
-description: A generalized agent skill with reusable financial-reporting code and fictional examples.
-workstream: programming
-hub: "[[Programming_Automation]]"
-status: draft
----
 
 # Monthly Financial Reporting
 
-A customizable agent skill with Python helpers for source checks, reconciliation,
+A customizable skill and MacOS script for ingesting data and formatting into monthly reports. Contains Python helpers for source checks, reconciliation,
 Excel template updates, email review delivery, and missed-completion monitoring.
 
 This is a sanitized version of a working monthly financial-reporting application.
